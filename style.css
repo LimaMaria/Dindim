@@ -72,7 +72,7 @@
     border: 2px solid;
     border-radius: 25px;
     padding: 10px;
-    width: 300px;
+    width: 250px;
     margin: 5px;
 }
 
@@ -495,13 +495,36 @@
 }
 
  /*-------------- Formatação mobile -----------------*/
-@media screen and (max-width:800px) {
+@media screen and (max-width:600px) {
 
     /*-------------- Conteudo mobile header -----------------*/
     .main_menu_header{
         display: block;
+        margin-left: -5px;
     }
 
+    .logo_header{
+        width: 20px;
+    }
+
+    .logo_header img{
+        width: 50px;
+    }
+    
+    .name_logo_header{
+        font-weight: 500;
+        font-size: 46px;
+    }
+
+   /*-------------- Conteudo mobile da pagina de contato -----------------*/
+    .contact_form textarea{
+        min-width: 300px;
+        min-height: 100px;
+    }
+
+    .contact_form input{
+        width: 300px;
+    }
     /*-------------- Conteudo mobile da pagina inicial (Sessao 1) -----------------*/
     .section1{
         display: block;
@@ -551,9 +574,13 @@
     }
     
     .comment_section3{
-        display: flex;
+        display: inline;
         margin: 20px;
-        justify-content: center;
+        width: 150px;
+    }
+
+    .comment_section3 p{
+        width: 200px;
     }
 
     /*-------------- Conteudo mobile da pagina inicial (Sessao 4) -----------------*/
@@ -577,15 +604,17 @@
     .section_blog p{
         margin: auto;
         padding-bottom: 20px;
+        width: 300px;
     }
 
     .section_blog img{
         padding-top: 20px;
+        width: 300px;
     }
 
     /*-------------- Conteudo mobile da pagina post -----------------*/
     .post img{
-        width: 400px;
+        width: 300px;
         height: 200px;
     }
 
@@ -654,12 +683,21 @@
     }
     
     .footer_name h1{
+        font-size: 50px;
         padding-left: 0px;
+    }
+    .footer_name p{
+        font-size: 15px;
     }
     
     .footer_box_logo{
         display: flex;
         justify-content: center;
+        align-items: center;
+    }
+
+    .footer_box_logo img{
+        width: 70px;
     }
 
     .footer_menu{
