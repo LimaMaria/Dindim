@@ -1,5 +1,4 @@
 /*-------------- Definições gerais -----------------*/
-
 *{
     font-family: 'Ubuntu', sans-serif;
     color: #FFFFFF;
@@ -87,7 +86,6 @@
 /*-------------- Conteudo da pagina inicial -----------------*/
 
 /*-------------- Sessao 1 -----------------*/
-
 .section1{
     display: flex;
     justify-content: space-around;
@@ -125,15 +123,14 @@
 
 .section1 img{
     padding: 50px 100px 50px 0px;
+    width: 400px;
 }
 
 .text_section1{
     padding-left: 100px;
 }
 
-
 /*-------------- Sessao 2 -----------------*/
-
 .section2{
     background-color: #F6F6F6;
     text-align: center;
@@ -176,7 +173,6 @@
 }
 
 /*-------------- Sessao 3 -----------------*/
-
 .section3{
     padding: 80px;
 }
@@ -216,7 +212,6 @@
 }
 
 /*-------------- Sessao 4 -----------------*/
-
 .section4{
     background-color: #F6F6F6;
     text-align: center;
@@ -265,7 +260,6 @@
 }
 
 /*-------------- Conteudo da pagina contato -----------------*/
-
 .contact_form{
     margin-left: 15px;
 }
@@ -301,7 +295,6 @@
 }
 
 /*-------------- Conteudo da pagina blog -----------------*/
-
 .section_blog{
     text-align: left;
     display: flex;
@@ -330,13 +323,12 @@
 }
 
 /*-------------- Conteudo da pagina post -----------------*/
-
 .post{
     text-align: center;
 }
 
 .post_box{
-    width: 1000px;
+    width: 80%;
     margin: auto;
     padding: 30px;
 }
@@ -370,4 +362,307 @@
 .date_post{
     color: #9D9D9D;
     font-size: 15px;
+}
+
+/*-------------- Conteúdo da Página de Cursos -----------------*/
+
+/*Título*/
+
+.Title_Courses {
+    padding: 69px;
+    size: 60px;
+    font-weight: 69px;
+}
+
+.Title_Courses h1 {
+    color: #FF4081;
+    font-size: 60px;
+}
+
+.Title_Courses p {
+    color: #555555;
+    font-size: 20px
+}
+
+/*Imagem - Titulo e Parágrafo da Sessao 1*/
+
+.section_Courses {
+    display: flex;
+    align-items: center;
+    margin: auto;
+    width: 90%;
+}
+
+.xadrez {
+    padding: 0% 5.8%;
+}
+
+.moneytree {
+    padding: 0% 5%;
+}
+
+.champ {
+    padding: 0% 5%;
+}
+
+.section_text h2 {
+    color: #ff4081;
+    font-weight: 700px;
+    font-size: 35px;
+}
+
+.section_text p {
+    padding: 15px 0px;
+    font-weight: 300px;
+    font-size: 18px;
+    color: #000000;
+}
+
+.section_text button {
+    width: 233px;
+    height: 51px;
+    background-color: #419488;
+    border: none;
+    cursor: pointer;
+    border-radius: 62px;
+}
+
+.section_text button a {
+    text-decoration: none;
+}
+
+/*Separação entre a section 1 e section 2*/
+
+.hr {
+    margin: 82px 114px;
+    border-top: 4px solid #c4c4c4;
+}
+
+/*Conteúdo da Página Curso*/
+
+.section_main {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.section_main h1 {
+    padding: 15px 0px 10px 200px;
+    color: #ff4081;
+    font-weight: 700px;
+    font-size: 35px;
+}
+
+.section_main p {
+    padding: 15px 0px 50px 200px;
+    font-weight: 300px;
+    width: 431px;
+    font-size: 18px;
+    height: 200px;
+    color: #000000;
+    text-align: justify;
+}
+
+.section_main img {
+    padding: 50px 300px 50px 0px;
+}
+
+/*Sessão 1 do Conteúdo*/
+
+.section_body{
+    margin: 30px 0px;
+}
+
+.section_curso {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 90%;
+    margin: auto;
+}
+
+.section_curso h2 {
+    color: #ff4081;
+    font-weight: 700px;
+    font-size: 35px;
+}
+
+.section_curso p {
+    width: 431px;
+    font-size: 18px;
+    height: 200px;
+    color: #000000;
+}
+
+ /*-------------- Formatação mobile -----------------*/
+@media screen and (max-width:800px) {
+
+    /*-------------- Conteudo mobile header -----------------*/
+    .main_menu_header{
+        display: block;
+    }
+
+    /*-------------- Conteudo mobile da pagina inicial (Sessao 1) -----------------*/
+    .section1{
+        display: block;
+        text-align: center;
+    }
+
+    .section1 h3{
+        margin-top: 20px;
+        font-weight: 700px;
+        font-size: 35px;
+    }
+    
+    .section1 p{
+        margin: auto;
+    }
+        
+    .section1 img{
+        padding: 20px 0px;
+        width: 300px;
+    }
+    
+    .text_section1{
+        padding-left: 0px;
+    }
+
+    /*-------------- Conteudo mobile da pagina inicial (Sessao 2) -----------------*/
+    .section2{
+        display: block;
+        text-align: center;
+        padding: 0px;
+    }
+    
+    .item_section2{
+        margin: auto;
+        padding: 30px;
+    }
+
+    /*-------------- Conteudo mobile da pagina inicial (Sessao 3) -----------------*/
+    .section3{
+        padding: 0px;
+        margin: 50px;
+    }
+    
+    .box_comment_section3{
+        display: inline;
+        margin: auto;
+    }
+    
+    .comment_section3{
+        display: flex;
+        margin: 20px;
+        justify-content: center;
+    }
+
+    /*-------------- Conteudo mobile da pagina inicial (Sessao 4) -----------------*/
+    .more_section4{
+        text-align: center;
+        display: inline;
+    }
+
+    .more_section4 p{
+        margin: auto;
+        padding-bottom: 20px;
+    }
+
+    /*-------------- Conteudo mobile da pagina blog -----------------*/
+    .section_blog{
+        text-align: center;
+        display: block;
+        padding: 0px;
+    }
+    
+    .section_blog p{
+        margin: auto;
+        padding-bottom: 20px;
+    }
+
+    .section_blog img{
+        padding-top: 20px;
+    }
+
+    /*-------------- Conteudo mobile da pagina post -----------------*/
+    .post img{
+        width: 400px;
+        height: 200px;
+    }
+
+    /*-------------- Conteudo mobile da pagina cursos -----------------*/
+    .section_Courses {
+        display: inline;
+        margin: 5px 10px;
+        text-align: center;
+    }
+
+    .section_Courses p{
+        padding: 20px;
+    }
+
+    .section_Courses button{
+        margin: 20px;
+    }
+
+    .section_Courses h2{
+        padding: 20px;
+    }
+
+    .section_Courses img{
+        width: 300px;
+    }
+
+    /*-------------- Conteudo mobile curso -----------------*/
+    .section_main {
+        display: inline;
+        text-align: center;
+    }
+    
+    .section_main h1 {
+        padding: 15px;
+    }
+    
+    .section_main p {
+        padding: 15px;
+        margin: auto;
+    }
+    
+    .section_main img {
+        padding: 15px;
+    }
+    
+    /*Sessão 1 do Conteúdo*/
+    
+    .section_curso {
+        display: inline;
+        width: 90%;
+        text-align: center;
+    }
+
+    .section_curso p{
+        margin: auto;
+        padding-top: 20px;
+        text-align: justify;
+    }
+
+    /*-------------- Conteudo mobile footer -----------------*/
+    .footer_box{
+        display: block;
+        text-align: center;
+        height: 100%;
+        padding: 50px;
+    }
+    
+    .footer_name h1{
+        padding-left: 0px;
+    }
+    
+    .footer_box_logo{
+        display: flex;
+        justify-content: center;
+    }
+
+    .footer_menu{
+        padding: 10px;
+    }
 }
