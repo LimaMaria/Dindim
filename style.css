@@ -581,6 +581,12 @@
 
     .comment_section3 p{
         width: 200px;
+        margin: auto;
+        text-align: center;
+    }
+
+    .img_comment_section3{
+        margin: auto;
     }
 
     /*-------------- Conteudo mobile da pagina inicial (Sessao 4) -----------------*/
